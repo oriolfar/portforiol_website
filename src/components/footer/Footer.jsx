@@ -1,12 +1,13 @@
 import React from 'react'
 import './footer.css'
-import {FiInstagram} from 'react-icons/fi'
-import {IoLogoTwitter} from 'react-icons/io'
+import {FiTwitter} from 'react-icons/fi'
+import {FaLinkedin} from "react-icons/fa";
+import {VscGithub} from "react-icons/vsc";
 
 const Footer = () => {
   return (
       <footer>
-        <a href="#" className='footer__logo'>GO TO TOP</a>
+        <a href="#" className='footer__logo'>ORIOL FARRÀS FIGUERA</a>
 
         <ul className='permalinks'>
           <li><a href="#">Home</a></li>
@@ -19,8 +20,15 @@ const Footer = () => {
         </ul>
 
         <div className="footer__socials">
-          <a href="https://twitter.com"><IoLogoTwitter/></a>
-          <a href="https://instagram.com"><FiInstagram/></a>
+          <a href="https://linkedin.com/in/oriolfarrastic" target="_blank">
+            <FaLinkedin/>
+          </a>
+          <a href="https://github.com/oriolfar" target="_blank">
+            <VscGithub/>
+          </a>
+          <a href="https://twitter.com/Ofarras" target="_blank">
+            <FiTwitter/>
+          </a>
         </div>
 
         <div className="footer__copyright">

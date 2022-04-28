@@ -6,51 +6,51 @@ const Experience = () => {
     return (
         <section id='experience'>
             <h5>What Skills I have</h5>
-            <h2>My Experience</h2>
+            <h2>Both sides of me!</h2>
 
             <div className='container experience__container'>
                 <div className="experience__frontend">
-                    <h3>Frontend Development</h3>
+                    <h3>Hard skills</h3>
                     <div className="experience__content">
                         <article className='experience__details'>
                             <TiInputChecked className='experience__details-icon'/>
                             <div>
-                                <h4>HTML</h4>
-                                <small className='text-light'>Experienced</small>
+                                <h4>C/C++</h4>
+                                <small className='text-light'>Advanced</small>
                             </div>
                         </article>
                         <article className='experience__details'>
                             <TiInputChecked className='experience__details-icon'/>
                             <div>
                                 <h4>CSS</h4>
-                                <small className='text-light'>Intermediate</small>
+                                <small className='text-light'>Experienced</small>
                             </div>
                         </article>
                         <article className='experience__details'>
                             <TiInputChecked className='experience__details-icon'/>
                             <div>
                                 <h4>JAVASCRIPT</h4>
+                                <small className='text-light'>Intermediate</small>
+                            </div>
+                        </article>
+                        <article className='experience__details'>
+                            <TiInputChecked className='experience__details-icon'/>
+                            <div>
+                                <h4>REACT</h4>
                                 <small className='text-light'>Experienced</small>
                             </div>
                         </article>
                         <article className='experience__details'>
                             <TiInputChecked className='experience__details-icon'/>
                             <div>
-                                <h4>Bootstrap</h4>
-                                <small className='text-light'>Experienced</small>
+                                <h4>SOLIDITY</h4>
+                                <small className='text-light'>Intermediate</small>
                             </div>
                         </article>
                         <article className='experience__details'>
                             <TiInputChecked className='experience__details-icon'/>
                             <div>
-                                <h4>TailWind</h4>
-                                <small className='text-light'>Experienced</small>
-                            </div>
-                        </article>
-                        <article className='experience__details'>
-                            <TiInputChecked className='experience__details-icon'/>
-                            <div>
-                                <h4>HTML</h4>
+                                <h4>TOKENOMICS</h4>
                                 <small className='text-light'>Experienced</small>
                             </div>
                         </article>
@@ -59,41 +59,37 @@ const Experience = () => {
                 {/* END OF FRONTEND */}
 
                 <div className="experience__backend">
-                    <h3>Backend Development</h3>
+                    <h3>Soft skills</h3>
                     <div className="experience__content">
                         <article className='experience__details'>
                             <TiInputChecked className='experience__details-icon'/>
                             <div>
-                                <h4>Node JS</h4>
-                                <small className='text-light'>Experienced</small>
+                                <h4>Team Lead</h4>
                             </div>
                         </article>
                         <article className='experience__details'>
                             <TiInputChecked className='experience__details-icon'/>
                             <div>
-                                <h4>MongoDB</h4>
-                                <small className='text-light'>Intermediate</small>
+                                <h4>Communicator</h4>
                             </div>
                         </article>
                         <article className='experience__details'>
                             <TiInputChecked className='experience__details-icon'/>
                             <div>
-                                <h4>PHP</h4>
-                                <small className='text-light'>Intermediate</small>
+                                <h4>Creative</h4>
                             </div>
                         </article>
                         <article className='experience__details'>
                             <TiInputChecked className='experience__details-icon'/>
                             <div>
-                                <h4>MySQL</h4>
-                                <small className='text-light'>Intermediate</small>
+                                <h4>Eager learner</h4>
                             </div>
                         </article>
                         <article className='experience__details'>
                             <TiInputChecked className='experience__details-icon'/>
                             <div>
-                                <h4>Python</h4>
-                                <small className='text-light'>Experienced</small>
+                                <h4>Lenguages</h4>
+                                <small className='text-light'>English, Spanish & Catalan</small>
                             </div>
                         </article>
                     </div>

@@ -10,10 +10,10 @@ const Nav = () => {
     const [activeNav, setActiveNav] = useState('#')
 
     const changeSelected = () => {
-        if (window.scrollY < 840) {
+        if (window.scrollY < 550) {
             console.log("HOME", window.scrollY);
             setActiveNav('#');
-        } else if (window.scrollY >= 840 && window.scrollY < 1750) {
+        } else if (window.scrollY >= 600 && window.scrollY < 1750) {
             console.log("ABOUT", window.scrollY);
             setActiveNav('#about');
         } else if (window.scrollY >= 1750 && window.scrollY < 2720) {

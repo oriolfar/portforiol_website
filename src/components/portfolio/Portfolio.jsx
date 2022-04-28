@@ -18,35 +18,17 @@ const Portfolio = () => {
             <div className="portfolio__item-image">
               <img src={IMG1} alt=""/>
             </div>
-            <h3>This is a portfolio item title</h3>
+            <h3>Blast Royale tokens marketplace</h3>
             <div className="portfolio__item-cta">
-              <a href="https://github.com/" className="btn" target="_blank">
-                Github
+              <a href="https://blastroyale.com/" className="btn" target="_blank">
+                Official website
               </a>
               <a
-                  href="https://github.com/"
+                  href="https://www.youtube.com/watch?v=yqD7xh-B1UQ&t=263s"
                   className="btn btn-primary"
                   target="_blank"
               >
-                Live Demo
-              </a>
-            </div>
-          </article>
-          <article className="portfolio__item">
-            <div className="portfolio__item-image">
-              <img src={IMG2} alt=""/>
-            </div>
-            <h3>This is a portfolio item title</h3>
-            <div className="portfolio__item-cta">
-              <a href="https://github.com/" className="btn" target="_blank">
-                Github
-              </a>
-              <a
-                  href="https://github.com/"
-                  className="btn btn-primary"
-                  target="_blank"
-              >
-                Live Demo
+                Game Video
               </a>
             </div>
           </article>
@@ -54,17 +36,36 @@ const Portfolio = () => {
             <div className="portfolio__item-image">
               <img src={IMG3} alt=""/>
             </div>
-            <h3>This is a portfolio item title</h3>
+            <h3>AREA: Zapier clone</h3>
             <div className="portfolio__item-cta">
-              <a href="https://github.com/" className="btn" target="_blank">
+              <a href="https://github.com/EpitechPromo2024/B-YEP-500-BAR-5-1-area-oriol1.farras-figuera" className="btn"
+                 target="_blank">
                 Github
               </a>
               <a
-                  href="https://github.com/"
+                  href="https://www.canva.com/design/DAE6bR_JgU4/-jj3wQEzu1eJnQXZSdsuWA/edit?utm_content=DAE6bR_JgU4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
                   className="btn btn-primary"
                   target="_blank"
               >
-                Live Demo
+                Keynote
+              </a>
+            </div>
+          </article>
+          <article className="portfolio__item">
+            <div className="portfolio__item-image">
+              <img src={IMG2} alt=""/>
+            </div>
+            <h3>Need4stek: an AI car simulator</h3>
+            <div className="portfolio__item-cta">
+              <a href="https://github.com/alexandre10044/need4stek" className="btn" target="_blank">
+                Github
+              </a>
+              <a
+                  href="https://www.youtube.com/watch?v=-ixLxKdJvgA"
+                  className="btn btn-primary"
+                  target="_blank"
+              >
+                Demo Video
               </a>
             </div>
           </article>
@@ -72,17 +73,18 @@ const Portfolio = () => {
             <div className="portfolio__item-image">
               <img src={IMG4} alt=""/>
             </div>
-            <h3>This is a portfolio item title</h3>
+            <h3>Webfleet API rest</h3>
             <div className="portfolio__item-cta">
-              <a href="https://github.com/" className="btn" target="_blank">
-                Github
+              <a href="https://www.webfleet.com/es_es/webfleet/lp/x/webfleet-solutions/?cid=7011O000003JRDH&gclid=CjwKCAjw9qiTBhBbEiwAp-GE0a_gFC-AU5YnXh_0wp7TKl8YUo4o_aGzR5x9V6M85vFPPsu7cqln2BoCfNoQAvD_BwE"
+                 className="btn" target="_blank">
+                Official website
               </a>
               <a
-                  href="https://github.com/"
+                  href="https://www.youtube.com/watch?v=FTRKLCcNgqE"
                   className="btn btn-primary"
                   target="_blank"
               >
-                Live Demo
+                Demo Video
               </a>
             </div>
           </article>
@@ -90,17 +92,18 @@ const Portfolio = () => {
             <div className="portfolio__item-image">
               <img src={IMG5} alt=""/>
             </div>
-            <h3>This is a portfolio item title</h3>
+            <h3>Yourcity SL company</h3>
             <div className="portfolio__item-cta">
-              <a href="https://github.com/" className="btn" target="_blank">
-                Github
+              <a href="https://www.ccma.cat/324/el-joc-del-monopoly-amb-ciutats-catalanes-una-iniciativa-de-dos-joves-dagramunt/noticia/3127214/"
+                 className="btn" target="_blank">
+                TV Article
               </a>
               <a
-                  href="https://github.com/"
+                  href="https://www.diaridegirona.cat/girona/2021/10/20/gironacity-joc-taula-ciutat-girona-58605184.html"
                   className="btn btn-primary"
                   target="_blank"
               >
-                Live Demo
+                Newspaper Article
               </a>
             </div>
           </article>
@@ -108,17 +111,17 @@ const Portfolio = () => {
             <div className="portfolio__item-image">
               <img src={IMG6} alt=""/>
             </div>
-            <h3>This is a portfolio item title</h3>
+            <h3>Web CV/Portfolio</h3>
             <div className="portfolio__item-cta">
-              <a href="https://github.com/" className="btn" target="_blank">
+              <a href="https://github.com/oriolfar/portforiol_website" className="btn" target="_blank">
                 Github
               </a>
               <a
-                  href="https://github.com/"
+                  href="http://localhost:3000/"
                   className="btn btn-primary"
                   target="_blank"
               >
-                Live Demo
+                Demo Link
               </a>
             </div>
           </article>
